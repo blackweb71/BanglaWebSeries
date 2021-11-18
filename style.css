@@ -1,0 +1,87 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #0e1538;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container a
+{
+    position: relative;
+    width: 260px;
+    height: 320px;
+    display: inline-block;
+    background: #fff;
+    margin: 20px;
+}
+.container #Tithir_Oshukh span
+{
+    background-image: url(https://i.ibb.co/HrGjRJx/251838793-10158705305978789-8644120908130839705-n.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container #joar_bhata span
+{
+    background-image: url(https://1.bp.blogspot.com/-JU7YlN8-7U8/YSUxvJiaoOI/AAAAAAAAASM/62RbDd5ShpYRLsfRs3tIC9b5iwlRLB8tACLcBGAsYHQ/w700/joar_bhata_web_film.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container #morichika span
+{
+    background-image: url(https://1.bp.blogspot.com/-i3Obn1EtKtM/YOv31SHgnMI/AAAAAAAABbE/p-gkLF8AsegvQgf39JZTdgBI6Js_eo3dACLcBGAsYHQ/w700/FB_IMG_1626077096697.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container #sgt span
+{
+    background-image: url(https://cinemabaaz.xyz/wp-content/uploads/2021/01/Shodor-Ghater-Tiger-2020-Bangla-S1-Complete.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container #rawkto span
+{
+    background-image: url(https://1.bp.blogspot.com/-4GCBGvPCFEE/YVZYNiPbpPI/AAAAAAAABJM/4uXDMnwUj9MT5PpEt62M9vYnxC2WcZCIACLcBGAsYHQ/s532/Screenshot_364.jpg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container a span
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #0e1538;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 1.0em;
+    letter-spacing: 2px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 24px;
+    border: 1px solid #040a29;
+    overflow: hidden;
+}
